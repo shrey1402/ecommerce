@@ -76,7 +76,7 @@ function UserCartItemsContent({ cartItem }) {
       <img
         src={cartItem?.image}
         alt={cartItem?.title}
-        className="w-20 h-20 rounded object-cover"
+        className="w-21 h-20 rounded object-cover"
       />
       <div className="flex-1">
         <h3 className="font-extrabold">{cartItem?.title}</h3>
