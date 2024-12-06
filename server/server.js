@@ -36,7 +36,7 @@ app.get('/', (req,res)=>{
 
 app.use(
   cors({
-    origin: "https://ecommerce-seven-liard.vercel.app",
+    origin: "https://ecommerce-frontend-omega-seven.vercel.app",
     methods: ["GET", "POST", "DELETE", "PUT"],
     allowedHeaders: [
       "Content-Type",
